@@ -19,7 +19,7 @@
     "wrangler": "^3.95.0"
   },
   "engines": {
-    "node": ">=19"
+    "node": ">=18.18.0"
   },
   "packageManager": "npm@10.8.1",
   "devDependencies": {
