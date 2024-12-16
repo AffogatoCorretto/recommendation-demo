@@ -6,14 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev"
   },
   "dependencies": {
     "axios": "^1.7.9",
     "crypto-browserify": "^3.12.1",
     "next": "15.1.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "wrangler": "^3.95.0"
   },
   "devDependencies": {
     "postcss": "^8",
